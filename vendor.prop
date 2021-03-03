@@ -18,3 +18,7 @@ vendor.audio.feature.fluence.enable=true
 
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
+
+# Xiaomi oxygen - SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953
