@@ -10,3 +10,7 @@ vendor.audio.mixer_xml.path=/vendor/etc/mixer_paths_mtp.xml
 
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
+
+# Xiaomi oxygen - SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953
