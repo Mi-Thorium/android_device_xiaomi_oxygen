@@ -170,6 +170,26 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 
+# Camera - Actuators
+vendor/lib/libactuator_dw9714.so
+vendor/lib/libactuator_fp5510_f13855bd.so
+
+# Camera - Eeproms
+vendor/lib/libmmcamera_ov13855_f13855bd_qtech_eeprom.so
+vendor/lib/libmmcamera_ov16885_ojf0541_ofilm_d6s_eeprom.so
+vendor/lib/libmmcamera_s5k3l8_ohp0502_ofilm_eeprom.so
+vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d6s_eeprom.so
+vendor/lib/libmmcamera_s5k5e8_f5e8ybf_qtech_eeprom.so
+vendor/lib/libmmcamera_s5k5e8_oef0501_ofilm_eeprom.so
+
+# Camera - Sensors
+vendor/lib/libmmcamera_ov13855_f13855bd_d6.so
+vendor/lib/libmmcamera_ov16885_ojf0541_d6.so
+vendor/lib/libmmcamera_s5k3l8_ohp0502_d6.so
+vendor/lib/libmmcamera_s5k3p8sp_d16s01n_d6s.so
+vendor/lib/libmmcamera_s5k5e8_f5e8ybf_d6.so
+vendor/lib/libmmcamera_s5k5e8_oef0501_d6.so
+
 # ConsumerIR
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 
