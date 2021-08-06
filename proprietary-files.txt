@@ -508,6 +508,23 @@ vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_preview.so
 vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_preview_3a.so
 vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_video.so
 
+# Camera configs
+etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|22c97a02423150bdaa3122c39caeb95ee9dad13f
+etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
+
+# Camera configs - Chromatix
+etc/camera/ov13855_f13855bd_qtech_d6_chromatix.xml:vendor/etc/camera/ov13855_f13855bd_qtech_d6_chromatix.xml
+etc/camera/ov13855_f13855bd_qtech_d6s_chromatix_india.xml:vendor/etc/camera/ov13855_f13855bd_qtech_d6s_chromatix_india.xml
+etc/camera/ov16885_ojf0541_d6_chromatix.xml:vendor/etc/camera/ov16885_ojf0541_d6_chromatix.xml
+etc/camera/s5k3l8_ohp0502_ofilm_d6_chromatix_india.xml:vendor/etc/camera/s5k3l8_ohp0502_ofilm_d6_chromatix_india.xml
+etc/camera/s5k3l8_ohp0502_ofilm_d6_chromatix.xml:vendor/etc/camera/s5k3l8_ohp0502_ofilm_d6_chromatix.xml
+etc/camera/s5k3p8sp_d16s01n_sunny_d6s_chromatix_india.xml:vendor/etc/camera/s5k3p8sp_d16s01n_sunny_d6s_chromatix_india.xml
+etc/camera/s5k3p8sp_d16s01n_sunny_d6s_chromatix.xml:vendor/etc/camera/s5k3p8sp_d16s01n_sunny_d6s_chromatix.xml
+etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix_india.xml:vendor/etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix_india.xml
+etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix.xml:vendor/etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix.xml
+etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml
+etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml
+
 # ConsumerIR
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 
