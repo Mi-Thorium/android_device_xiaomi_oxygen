@@ -60,3 +60,7 @@ etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.ac
 
 # ConsumerIR
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
+
+# Fingerprint - FPC
+lib64/hw/fingerprint.msm8937.so:vendor/lib64/hw/fingerprint.default.so
+lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
