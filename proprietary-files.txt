@@ -509,7 +509,7 @@ vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_preview_3a.so
 vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_video.so
 
 # Camera configs
-etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|22c97a02423150bdaa3122c39caeb95ee9dad13f
+etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|3c0bc38854caeb4e2728762c4bdabcc5c7ba3f5a
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
 
 # Camera configs - Chromatix
