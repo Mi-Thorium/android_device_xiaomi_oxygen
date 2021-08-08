@@ -19,6 +19,9 @@ TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_ulysse
 # Kernel
 TARGET_KERNEL_CONFIG := mi8937_defconfig
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
