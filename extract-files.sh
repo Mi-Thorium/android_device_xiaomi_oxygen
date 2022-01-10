@@ -54,7 +54,7 @@ function blob_fixup() {
             fi
             ;;
         vendor/lib/libmpbase.so)
-            "${PATCHELF}" --replace-needed "libandroid.so" "libshims_android.so" "${2}"
+            "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
     esac
 }
