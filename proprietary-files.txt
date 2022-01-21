@@ -480,7 +480,7 @@ etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml:vendor/etc/camera/s5k5e8_oef050
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8937.so
 
 # Fingerprint - FPC
-lib64/hw/fingerprint.msm8937.so:vendor/lib64/hw/fingerprint.default.so
+lib64/hw/fingerprint.msm8937.so:vendor/lib64/hw/fingerprint.msm8937.so
 lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
 
 # Fingerprint - Goodix - from vince
