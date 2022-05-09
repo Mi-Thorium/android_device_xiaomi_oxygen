@@ -14,7 +14,7 @@ include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/uter
 
 # Display
-TARGET_SCREEN_DENSITY := 267
+TARGET_SCREEN_DENSITY := 400
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
