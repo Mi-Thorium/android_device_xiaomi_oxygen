@@ -71,7 +71,7 @@ fi
 set -e
 
 export DEVICE=uter
-export DEVICE_COMMON=msm8937-common
+export DEVICE_COMMON=mithorium-common
 export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

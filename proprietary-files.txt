@@ -1,7 +1,9 @@
 # All unpinned blobs below are extracted from uter-userdebug 7.1.1 NMF26F 60 test-keys
-# vince Package version: vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys
+# vince Package version: vince-user 8.1.0 OPM1.171019.019 V11.0.3.0.OEGCNXM release-keys
 # daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
 # ugg Package version: ugg-user 7.1.2 N2G47H V11.0.2.0.NDKMIXM release-keys
+# PAN Package version: Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002/00WW_3_240:user/release-keys
+# olive (Pie) Package version: olive-user 9 PKQ1.190319.001 V11.0.11.0.PCNMIXM release-keys
 
 # ACDB
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -11,6 +13,15 @@ etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.ac
 etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+
+# Audio dirac - from mido
+vendor/etc/diracmobile.config
+vendor/lib/soundfx/libdirac.so
+vendor/lib/libDiracAPI_SHARED.so
+
+# ADSP modules - Dirac - from daisy
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
 
 # Camera stack - from ugg
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
@@ -206,6 +217,9 @@ vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d7.so
 vendor/lib/libois_bu63165_ulysse.so
 vendor/lib/libois_lc898122.so
 
+# Charger - from daisy
+vendor/bin/hvdcp_opti
+
 # ConsumerIR
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8953.so
 
@@ -225,3 +239,38 @@ lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 vendor/lib64/hw/gf_fingerprint.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
+
+# Firmware (GPU) - from PAN
+vendor/firmware/a506_zap.b00
+vendor/firmware/a506_zap.b01
+vendor/firmware/a506_zap.b02
+vendor/firmware/a506_zap.mdt
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+
+# Gatekeeper - from daisy
+vendor/lib64/hw/gatekeeper.msm8953.so
+
+# IMS (uceService) - from olive (Pie)
+-system/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk
+system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
+system/lib64/com.qualcomm.qti.uceservice@2.0.so:system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so
+
+# Keystore - from daisy
+vendor/lib64/hw/keystore.msm8953.so
+
+# Perf configs - from daisy
+vendor/etc/perf/commonresourceconfigs.xml
+vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/perfconfigstore.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
+
+# Sensors - from PAN
+vendor/bin/sensors.qti
+vendor/lib/libsensor1.so
+vendor/lib64/libsensor1.so
+
+# Sensors (SSC) - from daisy
+vendor/lib64/libsensor_reg.so
+vendor/lib64/sensors.ssc.so

@@ -4,13 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from msm8937-common
-$(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
+# Platform
+TARGET_BOARD_PLATFORM := msm8953
+
+# Inherit from mithorium-common
+$(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+PRODUCT_PACKAGES += \
+    HapticOverlay
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 
 # Permissions
 PRODUCT_COPY_FILES += \
