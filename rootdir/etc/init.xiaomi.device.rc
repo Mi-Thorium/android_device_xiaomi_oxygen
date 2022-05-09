@@ -1,9 +1,3 @@
-service vendor.xiaomi_device_script /vendor/bin/init.xiaomi.device.sh
-    class core
-    user root
-    group root
-    oneshot
-
 # IR
 on boot
     chown system system /dev/lirc0

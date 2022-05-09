@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ulysse.mk
+    $(LOCAL_DIR)/lineage_uter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ulysse-user \
-    lineage_ulysse-userdebug \
-    lineage_ulysse-eng
+    lineage_uter-user \
+    lineage_uter-userdebug \
+    lineage_uter-eng

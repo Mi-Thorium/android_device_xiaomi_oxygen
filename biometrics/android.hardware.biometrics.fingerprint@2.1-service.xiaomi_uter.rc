@@ -1,11 +1,10 @@
-service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ulysse
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_uter
     # "class hal" causes a race condition on some devices due to files created
     # in /data. As a workaround, postpone startup until later in boot once
     # /data is mounted.
     class late_start
     user system
     group system input uhid
-    disabled
 
 on boot
     # Goodix
@@ -28,12 +27,8 @@ on post-fs-data
     # Create dir for fpc
     mkdir /data/fpc 0770 system system
 
-on property:ro.vendor.xiaomi.device=ugg
+on property:ro.vendor.fingerprint.succeed=1
     setprop ro.boot.product.hardware.sku fingerprint
-    enable vendor.fps_hal
-
-on property:ro.vendor.xiaomi.device=ugglite
-    stop vendor.fps_hal
 
 on property:ro.vendor.fingerprint.failed=1
     stop vendor.fps_hal

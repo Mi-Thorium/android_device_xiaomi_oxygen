@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=ulysse
+export DEVICE=uter
 export DEVICE_COMMON=msm8937-common
 export VENDOR=xiaomi
 

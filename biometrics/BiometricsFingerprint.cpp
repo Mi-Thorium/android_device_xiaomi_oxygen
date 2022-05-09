@@ -13,8 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ulysse"
-#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ulysse"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_uter"
+#define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_uter"
 
 #include <android-base/properties.h>
 
@@ -51,7 +51,8 @@ BiometricsFingerprint::BiometricsFingerprint() : mClientCallback(nullptr), mDevi
     if (!mDevice) {
         ALOGE("Can't open HAL module");
         android::base::SetProperty("ro.vendor.fingerprint.failed", "1");
-    }
+    } else
+        android::base::SetProperty("ro.vendor.fingerprint.succeed", "1");
 }
 
 BiometricsFingerprint::~BiometricsFingerprint() {
