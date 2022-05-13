@@ -6,6 +6,7 @@ persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Tutu/Tutu_Handset_cal.acdb
 persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
 persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
+vendor.audio.mixer_xml.path=/vendor/etc/mixer_paths_mtp.xml
 
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
