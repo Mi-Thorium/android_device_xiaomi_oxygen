@@ -1,2 +1,2 @@
 # DT2W
-type dt2w_ctrl, fs_type, proc_type;
+type sysfs_ts, fs_type, sysfs_type;
