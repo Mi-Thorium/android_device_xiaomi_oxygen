@@ -24,7 +24,8 @@
     <item name="modem.controller.tx">0</item>
     <item name="modem.controller.voltage">0</item>
     <array name="cpu.clusters.cores">
-        <value>8</value>
+        <value>4</value>
+        <value>4</value>
     </array>
     <array name="cpu.speeds.cluster0">
         <value>652800</value>
@@ -36,6 +37,24 @@
         <value>2016000</value>
     </array>
     <array name="cpu.active.cluster0">
+        <value>34.3</value>
+        <value>47.0</value>
+        <value>60.0</value>
+        <value>76.0</value>
+        <value>90.0</value>
+        <value>106.6</value>
+        <value>113.6</value>
+    </array>
+    <array name="cpu.speeds.cluster1">
+        <value>652800</value>
+        <value>1036800</value>
+        <value>1401600</value>
+        <value>1689600</value>
+        <value>1804800</value>
+        <value>1958400</value>
+        <value>2016000</value>
+    </array>
+    <array name="cpu.active.cluster1">
         <value>34.3</value>
         <value>47.0</value>
         <value>60.0</value>
