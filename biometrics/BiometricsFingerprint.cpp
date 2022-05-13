@@ -270,22 +270,33 @@ fingerprint_device_t* BiometricsFingerprint::openTheHal(const char *hwmdl_name) 
     return fp_device;
 }
 
+void BiometricsFingerprint::setFpSensorProp(std::string hwmdl_name) {
+    android::base::SetProperty("persist.vendor.fingerprint.hwmdl", hwmdl_name);
+}
+
 fingerprint_device_t* BiometricsFingerprint::openHal() {
     fingerprint_device_t *fp_device;
-    std::string boot_fpsensor = android::base::GetProperty("ro.boot.fpsensor", "");
+    std::string last_hwmdl_name = android::base::GetProperty("persist.vendor.fingerprint.hwmdl", "");
 
-    ALOGI("ro.boot.fpsensor = %s", boot_fpsensor.c_str());
-
-    if (boot_fpsensor == "fpc") {
+    if (!last_hwmdl_name.empty() && last_hwmdl_name != "failed") {
+        ALOGI("Directly loading fingerprint HAL with hardware module id: %s.", last_hwmdl_name.c_str());
+        fp_device = BiometricsFingerprint::openTheHal(last_hwmdl_name.c_str());
+        if (fp_device == nullptr) {
+            ALOGE("Failed to load fingerprint HAL with hardware module id: %s.", last_hwmdl_name.c_str());
+        } else {
+            BiometricsFingerprint::setFpSensorProp(last_hwmdl_name);
+            return fp_device;
+        }
+    } else {
         // FPC
         ALOGI("Trying to load FPC Fingerprint HAL (using default hardware module id).");
         fp_device = BiometricsFingerprint::openTheHal(FINGERPRINT_HARDWARE_MODULE_ID);
         if (fp_device == nullptr) {
             ALOGE("Failed to load fingerprint HAL with default hardware module id");
         } else {
+            BiometricsFingerprint::setFpSensorProp(FINGERPRINT_HARDWARE_MODULE_ID);
             return fp_device;
         }
-    } else {
         // Cleanup FPC
         ALOGI("Clean up FPC.");
         if (!android::base::WriteStringToFile("reset", "/sys/devices/soc/soc:fpc1020/hw_reset", true)) {
@@ -297,10 +308,12 @@ fingerprint_device_t* BiometricsFingerprint::openHal() {
         if (fp_device == nullptr) {
             ALOGE("Failed to load fingerprint HAL with gf_fingerprint hardware module id");
         } else {
+            BiometricsFingerprint::setFpSensorProp("gf_fingerprint");
             return fp_device;
         }
     }
 
+    BiometricsFingerprint::setFpSensorProp("failed");
     return nullptr;
 }
 
