@@ -11,7 +11,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 # Inherit from common mithorium-common
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/uter
+DEVICE_PATH := device/xiaomi/oxygen
 
 # Display
 TARGET_SCREEN_DENSITY := 400
@@ -21,8 +21,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += earlycon=msm_hsl_uart,0x78af000
-TARGET_KERNEL_CONFIG := uter_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/uter
+TARGET_KERNEL_CONFIG := oxygen_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/oxygen
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -43,4 +43,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
 
 # Inherit from the proprietary version
-include vendor/xiaomi/uter/BoardConfigVendor.mk
+include vendor/xiaomi/oxygen/BoardConfigVendor.mk

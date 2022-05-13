@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_uter
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_oxygen
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -59,4 +59,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/uter/uter-vendor.mk)
+$(call inherit-product, vendor/xiaomi/oxygen/oxygen-vendor.mk)

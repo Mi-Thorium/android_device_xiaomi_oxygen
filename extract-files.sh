@@ -70,7 +70,7 @@ fi
 
 set -e
 
-export DEVICE=uter
+export DEVICE=oxygen
 export DEVICE_COMMON=mithorium-common
 export VENDOR=xiaomi
 

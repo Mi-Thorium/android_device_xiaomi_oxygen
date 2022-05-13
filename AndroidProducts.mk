@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_uter.mk
+    $(LOCAL_DIR)/lineage_oxygen.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_uter-user \
-    lineage_uter-userdebug \
-    lineage_uter-eng
+    lineage_oxygen-user \
+    lineage_oxygen-userdebug \
+    lineage_oxygen-eng
