@@ -1955,8 +1955,6 @@ typedef enum {
 
     CAM_INTF_PARM_EZTUNE_CMD,
     CAM_INTF_PARM_INT_EVT,
-    CAM_INTF_XM_01,
-    CAM_INTF_XM_02,
 
     /* specific to HAL3 */
     /* Whether the metadata maps to a valid frame number */
