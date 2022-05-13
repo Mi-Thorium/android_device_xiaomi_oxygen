@@ -1707,8 +1707,7 @@ typedef struct {
 
 typedef struct {
     uint32_t num_streams;
-//    cam_stream_request_t stream_request[MAX_NUM_STREAMS];
-    cam_stream_request_t stream_request[4];
+    cam_stream_request_t stream_request[MAX_NUM_STREAMS];
 } cam_stream_ID_t;
 
 /*CAC Message posted during pipeline*/
