@@ -1,18 +1,10 @@
-# All unpinned blobs below are extracted from uter-userdebug 7.1.1 NMF26F 60 test-keys
+# All unpinned blobs below are extracted from oxygen-user 7.1.1 NMF26F V11.0.2.0.NDDMIXM release-keys
 # vince Package version: vince-user 8.1.0 OPM1.171019.019 V11.0.3.0.OEGCNXM release-keys
 # daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
-# ugg Package version: ugg-user 7.1.2 N2G47H V11.0.2.0.NDKMIXM release-keys
 # PAN Package version: Nokia/Panther_00WW/PAN_sprout:11/RKQ1.200928.002/00WW_3_240:user/release-keys
 # olive (Pie) Package version: olive-user 9 PKQ1.190319.001 V11.0.11.0.PCNMIXM release-keys
 
 # ACDB
-etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Audio dirac - from mido
 vendor/etc/diracmobile.config
@@ -23,199 +15,9 @@ vendor/lib/libDiracAPI_SHARED.so
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 
-# Camera stack - from ugg
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-vendor/lib/libchromaflash.so
-vendor/lib/libflash_gpio.so
-vendor/lib/libflash_pmic.so
-vendor/lib/libjpegdhw.so
-vendor/lib/libjpegdmahw.so
-vendor/lib/libjpegehw.so
-vendor/lib/libllvd_smore.so
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_dcrf.so
-vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_mct_shimlayer.so
-vendor/lib/libmmcamera2_mct.so
-vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera_cac3_lib.so
-vendor/lib/libmmcamera_chromaflash_lib.so
-vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
-vendor/lib/libmmcamera_dcrf_lib.so
-vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_eebinparse.so
-vendor/lib/libmmcamera_eeprom_util.so
-vendor/lib/libmmcamera_eztune_module.so
-vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_isp_abf40.so
-vendor/lib/libmmcamera_isp_bcc40.so
-vendor/lib/libmmcamera_isp_be_stats44.so
-vendor/lib/libmmcamera_isp_bf_stats47.so
-vendor/lib/libmmcamera_isp_bg_stats44.so
-vendor/lib/libmmcamera_isp_bhist_stats44.so
-vendor/lib/libmmcamera_isp_bpc40.so
-vendor/lib/libmmcamera_isp_chroma_enhan40.so
-vendor/lib/libmmcamera_isp_chroma_suppress40.so
-vendor/lib/libmmcamera_isp_clamp_encoder40.so
-vendor/lib/libmmcamera_isp_clamp_video40.so
-vendor/lib/libmmcamera_isp_clamp_viewfinder40.so
-vendor/lib/libmmcamera_isp_color_correct40.so
-vendor/lib/libmmcamera_isp_color_xform_encoder40.so
-vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so
-vendor/lib/libmmcamera_isp_cs_stats44.so
-vendor/lib/libmmcamera_isp_demosaic40.so
-vendor/lib/libmmcamera_isp_demux40.so
-vendor/lib/libmmcamera_isp_fovcrop_encoder40.so
-vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
-vendor/lib/libmmcamera_isp_gamma40.so
-vendor/lib/libmmcamera_isp_ihist_stats44.so
-vendor/lib/libmmcamera_isp_linearization40.so
-vendor/lib/libmmcamera_isp_ltm44.so
-vendor/lib/libmmcamera_isp_luma_adaptation40.so
-vendor/lib/libmmcamera_isp_mce40.so
-vendor/lib/libmmcamera_isp_mesh_rolloff40.so
-vendor/lib/libmmcamera_isp_rs_stats44.so
-vendor/lib/libmmcamera_isp_scaler_encoder44.so
-vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
-vendor/lib/libmmcamera_isp_sce40.so
-vendor/lib/libmmcamera_isp_sub_module.so
-vendor/lib/libmmcamera_isp_template.so
-vendor/lib/libmmcamera_isp_wb40.so
-vendor/lib/libmmcamera_llvd.so
-vendor/lib/libmmcamera_optizoom_lib.so
-vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
-vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_stillmore_lib.so
-vendor/lib/libmmcamera_sw2d_lib.so
-vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_trueportrait_lib.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera_ubifocus_lib.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libmmsw_detail_enhancement.so
-vendor/lib/libmmsw_math.so
-vendor/lib/libmmsw_opencl.so
-vendor/lib/libmmsw_platform.so
-vendor/lib/libmpbase.so
-vendor/lib/liboptizoom.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libremosaic_daemon.so
-vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so
-vendor/lib/libubifocus.so
+# Camera stack
 
 # Camera modules
-etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|d54ab85627225ecc0019a158608921d2fc881dc0
-etc/camera/ov12a10_chromatix.xml:vendor/etc/camera/ov12a10_chromatix.xml
-etc/camera/ov16885_ojf0541_ofilm_d7_chromatix.xml:vendor/etc/camera/ov16885_ojf0541_ofilm_d7_chromatix.xml
-etc/camera/s5k3p8sp_d16s01n_sunny_d7_chromatix.xml:vendor/etc/camera/s5k3p8sp_d16s01n_sunny_d7_chromatix.xml
-vendor/lib/libactuator_dw9763_ov12a10_sunny.so
-vendor/lib/libchromatix_ov12a10_4K_preview_dw9763.so
-vendor/lib/libchromatix_ov12a10_4K.so
-vendor/lib/libchromatix_ov12a10_4K_video_dw9763.so
-vendor/lib/libchromatix_ov12a10_common.so
-vendor/lib/libchromatix_ov12a10_cpp_4K.so
-vendor/lib/libchromatix_ov12a10_cpp_hfr_120.so
-vendor/lib/libchromatix_ov12a10_cpp_liveshot.so
-vendor/lib/libchromatix_ov12a10_cpp_preview.so
-vendor/lib/libchromatix_ov12a10_cpp_snapshot.so
-vendor/lib/libchromatix_ov12a10_cpp_video.so
-vendor/lib/libchromatix_ov12a10_default_preview_dw9763.so
-vendor/lib/libchromatix_ov12a10_default_video_dw9763.so
-vendor/lib/libchromatix_ov12a10_default_video.so
-vendor/lib/libchromatix_ov12a10_hfr_120_dw9763.so
-vendor/lib/libchromatix_ov12a10_hfr_120.so
-vendor/lib/libchromatix_ov12a10_postproc.so
-vendor/lib/libchromatix_ov12a10_preview.so
-vendor/lib/libchromatix_ov12a10_snapshot.so
-vendor/lib/libchromatix_ov12a10_zsl_preview_dw9763.so
-vendor/lib/libchromatix_ov12a10_zsl_video_dw9763.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_common.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_hfr_120.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_hfr_60.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_hfr_90.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_liveshot.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_preview.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_snapshot.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_video_full.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_cpp_video.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_default_preview_a3.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_default_video_a3.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_default_video.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_120_a3.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_120.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_60_a3.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_60.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_90_a3.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_hfr_90.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_postproc.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_preview.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_snapshot.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_video_full.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_zsl_preview.so
-vendor/lib/libchromatix_ov16885_ojf0541_ofilm_d7_zsl_video.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_1080p_preview_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_1080p.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_1080p_video_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_common.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_1080p.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_fullsize.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_hfr_60_fullsize.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_hfr_90.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_liveshot.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_preview.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_cpp_video.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_default_preview_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_default_video_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_default_video.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_fullsize_preview_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_fullsize.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_fullsize_video_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_120_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_120.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_60_fullsize_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_60.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_90_3a.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_hfr_90.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_postproc.so
-vendor/lib/libchromatix_s5k3p8sp_d16s01n_sunny_d7_preview.so
-vendor/lib/libmmcamera_ov12a10_eeprom.so
-vendor/lib/libmmcamera_ov12a10.so
-vendor/lib/libmmcamera_ov16885_ojf0541_ofilm_d7_eeprom.so
-vendor/lib/libmmcamera_ov16885.so
-vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d7_eeprom.so
-vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d7.so
-vendor/lib/libois_bu63165_ulysse.so
-vendor/lib/libois_lc898122.so
 
 # Charger - from daisy
 vendor/bin/hvdcp_opti
@@ -224,11 +26,8 @@ vendor/bin/hvdcp_opti
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8953.so
 
 # Fingerprint (FPC)
-lib64/hw/fingerprint.msm8953.so:vendor/lib64/hw/fingerprint.msm8953.so
-lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
 
 # Fingerprint (Goodix)
-lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
 
 # Fingerprint (Goodix) - from vince
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
