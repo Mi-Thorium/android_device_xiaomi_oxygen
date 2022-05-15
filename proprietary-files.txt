@@ -273,7 +273,7 @@ lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
 # Fingerprint (Goodix) - from vince
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
 lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so|a64780d07322cc09e30160072af32a64b4379184|89f983b76f824ab62b548a831eb0123a386fd222
 
 # Fingerprint - Goodix HAL - from daisy
 vendor/lib64/hw/gf_fingerprint.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1

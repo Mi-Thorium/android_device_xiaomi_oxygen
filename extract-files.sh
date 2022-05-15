@@ -59,6 +59,15 @@ function blob_fixup() {
         vendor/lib/libmpbase.so)
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
+        vendor/lib64/libgf_hal.so)
+            # Always assume screen is interactive
+            sed -i -e 's|\xE6\xDB\xFF\x97\x60\x02\x00\xB9|\x20\x00\x80\xD2\x20\x00\x80\xD2|g' "${2}"
+            PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "200080d2200080d2" | wc -l)
+            if [ $PATTERN_FOUND != "1" ]; then
+                echo "Critical blob modification weren't applied on ${2}!"
+                exit;
+            fi
+            ;;
     esac
 }
 
