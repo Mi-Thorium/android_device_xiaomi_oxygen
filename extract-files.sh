@@ -67,6 +67,13 @@ function blob_fixup() {
                 echo "Critical blob modification weren't applied on ${2}!"
                 exit;
             fi
+            # NOP out gf_is_screen_interactive() call in gf_hal_common_authenticate()
+            sed -i -e 's|\x3C\xD3\xFF\x97\xA8\x00|\x1F\x20\x03\xD5\xA8\x00|g' "${2}"
+            PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "1f2003d5a800" | wc -l)
+            if [ $PATTERN_FOUND != "1" ]; then
+                echo "Critical blob modification weren't applied on ${2}!"
+                exit;
+            fi
             ;;
     esac
 }
