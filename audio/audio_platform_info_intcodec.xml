@@ -153,8 +153,8 @@
         <!-- Output - MI2S - Quinary - ANC -->
         <device name="SND_DEVICE_OUT_ANC_HANDSET" backend="receiver" interface="QUIN_MI2S_RX"/>
         <!-- Output - MI2S - Misc -->
-        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" interface="PRI_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" interface="PRI_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="speaker-and-headphones" interface="PRI_MI2S_RX-and-QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" backend="speaker-and-headphones" interface="PRI_MI2S_RX-and-QUIN_MI2S_RX"/>
         <!-- Output - MI2S - Misc - ANC -->
         <device name="SND_DEVICE_OUT_SPEAKER_AND_ANC_HEADSET" interface="PRI_MI2S_RX"/>
         <!-- Output - BT SCO -->
