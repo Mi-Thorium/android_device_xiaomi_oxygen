@@ -307,3 +307,7 @@ vendor/lib64/libsensor1.so
 # Sensors (SSC) - from daisy
 vendor/lib64/libsensor_reg.so
 vendor/lib64/sensors.ssc.so
+
+# WCNSS
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat
