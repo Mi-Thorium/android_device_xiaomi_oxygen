@@ -142,16 +142,16 @@
         <device name="SND_DEVICE_OUT_VOICE_ANC_HEADSET" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_AND_VOICE_ANC_HEADSET" interface="PRI_MI2S_RX"/>
         <!-- Output - MI2S - Quinary -->
-        <device name="SND_DEVICE_OUT_HANDSET" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_SPEAKER" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_VOICE_HANDSET" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED" interface="QUIN_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_VOICE_TTY_HCO_HANDSET" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_HANDSET" backend="receiver" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER" backend="speaker" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED" backend="speaker" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_REVERSE" backend="speaker" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_HANDSET" backend="receiver" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="speaker" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED" backend="speaker" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOICE_TTY_HCO_HANDSET" backend="receiver" interface="QUIN_MI2S_RX"/>
         <!-- Output - MI2S - Quinary - ANC -->
-        <device name="SND_DEVICE_OUT_ANC_HANDSET" interface="QUIN_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_ANC_HANDSET" backend="receiver" interface="QUIN_MI2S_RX"/>
         <!-- Output - MI2S - Misc -->
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" interface="PRI_MI2S_RX"/>
