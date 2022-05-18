@@ -114,20 +114,6 @@
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="137"/>
     </acdb_ids>
     <backend_names>
-        <!-- Output - MI2S - Primary -->
-        <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones"/>
-        <device name="SND_DEVICE_OUT_LINE" backend="line"/>
-        <device name="SND_DEVICE_OUT_VOICE_HEADPHONES" backend="voice-headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_LINE" backend="voice-headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_AND_VOICE_HEADPHONES" backend="voice-speaker-and-voice-headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_TTY_FULL_HEADPHONES" backend="voice-tty-full-headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_TTY_VCO_HEADPHONES" backend="voice-tty-vco-headphones"/>
-        <!-- Output - MI2S - Primary - ANC -->
-        <device name="SND_DEVICE_OUT_ANC_FB_HEADSET" backend="headphones"/>
-        <device name="SND_DEVICE_OUT_ANC_HEADSET" backend="headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_ANC_FB_HEADSET" backend="headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_ANC_HEADSET" backend="headphones"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_AND_VOICE_ANC_HEADSET" backend="voice-headphones"/>
         <!-- Output - MI2S - Quinary -->
         <device name="SND_DEVICE_OUT_HANDSET" backend="receiver"/>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="speaker"/>
