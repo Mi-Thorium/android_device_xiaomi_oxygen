@@ -28,12 +28,10 @@ etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Hdmi_cal.acdb
 etc/acdbdata/Tutu/Tutu_Headset_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
 
-# Audio dirac - from mido
-vendor/etc/diracmobile.config
-vendor/lib/soundfx/libdirac.so
-vendor/lib/libDiracAPI_SHARED.so
+# Audio Dirac
+lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
 
-# ADSP modules - Dirac - from daisy
+# ADSP modules - Dirac
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 
