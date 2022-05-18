@@ -35,6 +35,10 @@ lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
 vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 
+# ADSP modules - TAS2560 Codec
+vendor/lib/rfsa/adsp/tas2560_aac.bin
+vendor/lib/rfsa/adsp/tas2560_ssi.bin
+
 # Camera stack
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libchromaflash.so
