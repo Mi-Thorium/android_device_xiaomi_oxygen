@@ -20,7 +20,6 @@ TARGET_SCREEN_DENSITY := 342
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-BOARD_KERNEL_CMDLINE += earlycon=msm_hsl_uart,0x78af000
 TARGET_KERNEL_CONFIG := oxygen_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/oxygen
 
