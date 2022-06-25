@@ -25,7 +25,7 @@ TARGET_SCREEN_DENSITY := 342
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/7824900.sdhci
+BOARD_KERNEL_CMDLINE += androidboot.android_dt_dir=/non-existent androidboot.boot_devices=soc/7824900.sdhci
 TARGET_KERNEL_CONFIG := oxygen_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/oxygen
 
