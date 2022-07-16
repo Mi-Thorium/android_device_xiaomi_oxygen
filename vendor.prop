@@ -11,6 +11,9 @@ vendor.audio.mixer_xml.path=/vendor/etc/mixer_paths_mtp.xml
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
 
+# Xiaomi oxygen - Encryption
+ro.crypto.volume.contents_mode=aes-256-xts
+
 # Xiaomi oxygen - SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8953
