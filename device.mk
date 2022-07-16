@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Cryptfshw
+TARGET_EXCLUDE_CRYPTFSHW := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
 
