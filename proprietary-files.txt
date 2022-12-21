@@ -301,7 +301,7 @@ vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 
-# Sensors - from PAN
+# Sensors - from LA.UM.9.6.3.r1-06200-89xx.0
 vendor/bin/sensors.qti
 vendor/lib/libsensor1.so
 vendor/lib64/libsensor1.so
