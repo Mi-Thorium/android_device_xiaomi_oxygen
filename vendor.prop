@@ -8,6 +8,9 @@ persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
 vendor.audio.mixer_xml.path=/vendor/etc/mixer_paths_mtp.xml
 
+# Xiaomi oxygen - Bluetooth
+bluetooth.sco.disable_enhanced_connection=1
+
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
 
