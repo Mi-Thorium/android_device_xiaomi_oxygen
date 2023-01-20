@@ -16,6 +16,9 @@ persist.vendor.audio.fluence.voicerec=false
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.feature.fluence.enable=true
 
+# Xiaomi oxygen - Bluetooth
+bluetooth.sco.disable_enhanced_connection=1
+
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
 
