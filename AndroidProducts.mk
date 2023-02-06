@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oxygen.mk
+    $(LOCAL_DIR)/bootleg_oxygen.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_oxygen-user \
-    lineage_oxygen-userdebug \
-    lineage_oxygen-eng
+    bootleg_oxygen-user \
+    bootleg_oxygen-userdebug \
+    bootleg_oxygen-eng
