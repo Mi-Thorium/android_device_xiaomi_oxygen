@@ -284,7 +284,7 @@ vendor/firmware/a506_zap.mdt
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Gatekeeper - from daisy
+# Gatekeeper - from FP3
 vendor/lib64/hw/gatekeeper.msm8953.so
 
 # IMS (uceService) - from olive (Pie)
@@ -292,7 +292,7 @@ vendor/lib64/hw/gatekeeper.msm8953.so
 system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 system/lib64/com.qualcomm.qti.uceservice@2.0.so:system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so
 
-# Keystore - from daisy
+# Keystore - from FP3
 vendor/lib64/hw/keystore.msm8953.so
 
 # Perf configs - from FP3
