@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
     libshims_ui \
     libwui
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/oxygen/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hvdcp_opti
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom_ramdisk \
