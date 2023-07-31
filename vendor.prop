@@ -8,5 +8,13 @@ persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Tutu/Tutu_Headset_cal.acdb
 persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Tutu/Tutu_Speaker_cal.acdb
 vendor.audio.mixer_xml.path=/vendor/etc/mixer_paths_mtp.xml
 
+# Xiaomi oxygen - Audio fluence
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicecomm=false
+persist.vendor.audio.fluence.voicerec=false
+ro.vendor.audio.sdk.fluencetype=fluence
+vendor.audio.feature.fluence.enable=true
+
 # Xiaomi oxygen - Camera
 persist.camera.gyro.disable=0
